@@ -1,0 +1,51 @@
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+li {
+    display: inline-block;
+    margin: 20px;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+.Menu_Navegacao ul {
+    color: #000000;
+}
+
+.imagem-container {
+    display: block;
+}
+
+.imagem-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.Compre {
+    position: relative;
+}
+
+.CompreJa {
+    color: #FFF;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 115%;
+}
