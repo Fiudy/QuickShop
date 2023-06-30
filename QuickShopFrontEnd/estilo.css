@@ -19,7 +19,6 @@ li {
 
 main {
     display: flex;
-    flex-direction: row;
     margin-top: 50px;
 }
 
@@ -31,21 +30,28 @@ main {
     display: block;
 }
 
-.imagem-container img {
-    display: block;
-    width: 100%;
-    height: auto;
-    margin-bottom: 10px;
-}
-
 .Compre {
-    position: relative;
-}
-
-.CompreJa {
     color: #FFF;
     font-size: 34px;
     font-style: normal;
     font-weight: 600;
     line-height: 115%;
+}
+
+.container {
+    position: relative;
+}
+
+.imagemcima {
+    position: absolute;
+    top: 0;
+    left: 5;
+    z-index: 1;
+}
+
+.imagembaixo {
+    position: absolute;
+    top: 0;
+    left: 5;
+    z-index: 1;
 }
